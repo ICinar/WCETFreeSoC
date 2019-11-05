@@ -1,0 +1,46 @@
+/*! \mainpage Execution Time Counter in Hardware (WCETfreeSoC2_1)
+ *
+ * Sample project with FreeSoC2 5LP board.
+ * 
+ * UART input and output from/to terminal console and execution time counter in harware
+ *
+ * \section tech_ovrview Technical overview
+ *
+ * All harware components are programmed in the programmable SoC.
+ *
+ * These are the led aand button, the UART for terminal output and control via the
+ * menue. Use Help ('h') for detailed information.
+ * For further information see \ref getting_started "Getting started" and \ref menu "Menue".
+ *
+ * Time measurement is arlo done in hardware via Control_register, Basic_Counter and Status_Register.
+ *
+ * \section getting_started Getting started
+ * 
+ * ...
+ *
+ * \subsection hw Hardware
+ *
+ * See TopDesign.cysch and the pin assignment in *.cydwr.
+ *
+ * \subsection fw Firmware
+ * Compile and load on the target. Configure a ASCII-Terminal before and connect:
+ *
+ * 115200 8 N 1
+ *
+ * Software reports with its signatur (i.e. firmware name and version, compile time) and help text.
+ *
+ * If not, troubleshoot why!
+ *
+ * \subsection menu Menue
+ *
+ * Help with 'h' or 'H' on the terminal window.
+ *
+ *
+ * <b>Good luck!</b>
+ *
+ * \section notimplemented What is not implemented
+ *
+ * <b>...</b>.
+ *
+ */ 
+
